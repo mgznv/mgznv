@@ -77,7 +77,7 @@ While most of my enterprise work lives in private repos, here's what I build at 
 
 ## 📬 Get in Touch
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/) <!-- agrega tu URL aquí -->
+- 💼 [LinkedIn](https://www.linkedin.com/in/mgznv/) 
 - 🐙 [GitHub](https://github.com/mgznv)
 
 ---
