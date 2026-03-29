@@ -2,7 +2,7 @@
 
 I'm a **Master Data Analyst & Rails Developer** based in Mexico 🇲🇽, working at the intersection of data engineering, automation, and AI-powered applications. I enjoy building tools that solve real problems — from enterprise contract management systems to natural language database interfaces.
 
-When I'm not coding, I'm probably flying FPV drones, tinkering with 3D models, or creating content for my family gaming channel **ALANCRAFT** 🎮.
+When I'm not coding, I'm probably playing playstation, tinkering with 3D models, or creating content for my family gaming channel **ALANCRAFT** 🎮.
 
 ---
 
