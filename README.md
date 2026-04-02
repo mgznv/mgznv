@@ -45,31 +45,13 @@ Type a natural language question, get real query results. Powered by the OpenAI 
 
 `Rails` · `OpenAI API` · `MCP` · `PostgreSQL` · `Hotwire` · `Turbo Streams`
 
----
 
-### 🎵 pitch-lab *(in progress)*
-> A Rock Band-style pitch detection app using your laptop's microphone.
-
-Real-time audio capture and pitch detection via the Web Audio API, with live visualization. Built for fun, learning, and eventually multiplayer chaos.
-
-`Web Audio API` · `JavaScript` · `Real-time`
-
----
-
-### ⚙️ sftp-automation
-> Scheduled pipeline for automated file delivery from corporate SFTP servers.
-
-Downloads pipe-delimited inventory reports from remote SFTP servers, transforms them into formatted Excel files, and delivers them on schedule via Windows Task Scheduler.
-
-`PowerShell` · `SFTP` · `Excel Automation`
-
----
 
 ## 💼 Professional Experience
 
 While most of my enterprise work lives in private repos, here's what I build at scale:
 
-- 🧠 **AI-powered classification** — OpenAI embeddings + pgvector for commodity data at Flex (Flextronics)
+- 🧠 **AI-powered classification** — OpenAI embeddings + pgvector for commodity data 
 - 📊 **Analytics pipelines** — Master data processing, EAR threshold calculations, SQL Server integrations
 - 🔄 **Workflow automation** — SFTP pipelines, SSRS reports, Excel generation at enterprise scale
 
