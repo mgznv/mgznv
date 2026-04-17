@@ -1,8 +1,8 @@
 # Hi, I'm Manuel 👋
 
-I'm a **Backend Developer & Data Engineer** specializing in Ruby on Rails and Business Intelligence infrastructure, based in Mexico 🇲🇽. Currently, I bridge the gap between data engineering, automation, and AI-powered applications at **Flex**.
+I'm a **Backend Developer & Data Engineer** specializing in Ruby on Rails and AI-powered data infrastructure, based in Mexico 🇲🇽. I work on the Business Intelligence team at **Flex**, where I build the backend, ETL pipelines, and internal AI tooling that power enterprise analytics.
 
-I enjoy building robust tools that solve real problems — from enterprise contract management systems to natural language database interfaces and scalable ETL pipelines.
+Lately I've been focused on the intersection of Rails and LLMs: natural language database interfaces, embedding-based classification, and tooling that makes AI integration feel native to Ruby.
 
 When I'm not coding, I'm probably playing PlayStation, tinkering with 3D models, or creating content for my family gaming channel **ALANCRAFT** 🎮.
 
@@ -10,95 +10,79 @@ When I'm not coding, I'm probably playing PlayStation, tinkering with 3D models,
 
 ## 🛠️ Tech Stack
 
-### Languages & Frameworks
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
 ![Rails](https://img.shields.io/badge/Rails-CC0000?style=for-the-badge&logo=rubyonrails&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-### Data, Cloud & BI
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-### DevOps & Infrastructure
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-### AI & Integrations
+![pgvector](https://img.shields.io/badge/pgvector-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-gray?style=for-the-badge)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 
 ---
 
 ## 🚀 Featured Projects
 
-### 📄 [contract-flow](https://github.com/mgznv/contract-flow)
-> Enterprise contract lifecycle management system built with Rails.
-
-Full CRUD for contracts with product details, multi-step approval workflows, role-based access control, email notifications, and a region-aware Maximum Liability calculator. Supports bulk CSV import and JavaScript-powered form autofill. **Deployed to production Linux server.**
-
-`Rails` · `PostgreSQL` · `Hotwire` · `Action Mailer` · `RBAC` · `Linux Deployment`
-
----
-
 ### 🤖 [ask-your-db](https://github.com/mgznv/ask-your-db)
-> Query your database in plain English — no SQL required.
 
-Type a natural language question, get real query results. Powered by the OpenAI API and Model Context Protocol (MCP) for schema-aware SQL generation, with a real-time Hotwire interface and read-only execution for safety.
+> Query your PostgreSQL database in plain English — no SQL required.
+
+Type a natural language question, get real query results. Powered by OpenAI and Model Context Protocol (MCP) for schema-aware SQL generation, with a real-time Hotwire interface and read-only execution for safety.
 
 `Rails` · `OpenAI API` · `MCP` · `PostgreSQL` · `Hotwire` · `Turbo Streams`
 
 ---
 
-### 🧠 [RubyCanUseLLM](https://github.com/mgznv/rubycanusellm)
-> A unified Ruby client for LLMs with generators. Ruby can use LLM.
+### 💎 [rubycanusellm](https://github.com/mgznv/rubycanusellm)
 
-A clean, consistent interface to interact with multiple LLM providers (OpenAI, Anthropic, etc.) through a single API. Built to eliminate vendor lock-in and simplify AI integration in Ruby applications. Features streaming support, error handling, and boilerplate generators.
+[![Gem Version](https://img.shields.io/gem/v/rubycanusellm?style=flat-square&color=CC342D)](https://rubygems.org/gems/rubycanusellm) [![Downloads](https://img.shields.io/gem/dt/rubycanusellm?style=flat-square&color=blue)](https://rubygems.org/gems/rubycanusellm)
 
-`Ruby` · `Gem` · `OpenAI API` · `Anthropic API` · `LLM Abstraction`
+> Unified Ruby gem to work with multiple LLM providers. Ruby can use LLM.
+
+A published Ruby gem that gives Rails apps a clean, consistent interface to OpenAI, Anthropic, and other providers — eliminating vendor lock-in. Includes streaming support, error handling, and Rails generators for quick integration.
+
+`Ruby Gem` · `OpenAI API` · `Anthropic API` · `Streaming` · `Rails Generators`
 
 ---
 
 ### ⚡ [Hydra](https://github.com/mgznv/hydra)
+
 > Many providers, one endpoint.
 
-A lightweight HTTP proxy/load balancer written in Ruby (Sinatra) that distributes LLM requests across multiple providers using round-robin strategy. Maximizes free tier usage by rotating between Groq, OpenRouter, Anthropic, and others. Supports both blocking and streaming (SSE) responses.
+A lightweight HTTP proxy (Ruby/Sinatra) that load-balances LLM requests across multiple providers using round-robin. Maximizes free-tier usage across Groq, OpenRouter, Anthropic, and others. Supports both blocking and streaming (SSE) responses.
 
-`Ruby` · `Sinatra` · `Load Balancer` · `LLM Proxy` · `Round-Robin` · `Streaming`
+**Complements `rubycanusellm`:** the gem is the client you use inside Rails apps; Hydra is the infrastructure layer you point it at.
+
+`Ruby` · `Sinatra` · `LLM Proxy` · `Load Balancing` · `SSE Streaming`
+
+---
+
+### 🌸 Open Source Contributions
+
+- [**lingdojo/kana-dojo**](https://github.com/lingdojo/kana-dojo) — Contributor to a Japanese language learning app (Hiragana/Katakana trainer).
 
 ---
 
 ## 💼 Professional Experience @ Flex (BI Team)
 
-As part of the Business Intelligence team, I own the backend infrastructure and data pipelines that power enterprise analytics. My role combines Data Engineering, Backend Development, and DevOps.
+As part of the Business Intelligence team, I own backend infrastructure and data pipelines that power enterprise analytics. My role spans Data Engineering, Backend Development, and DevOps.
 
-- **🚀 Production Deployments:** Successfully deployed and maintain two production Ruby on Rails applications on Linux servers:
-    - *Contract Flow:* Enterprise contract management system (Public Repo).
-    - *Embeddings Service:* Internal tool for generating and managing vector embeddings for AI features (Private/Internal).
-- **📊 ETL & Data Pipelines:** Design and maintain complex ETL flows using **Tableau Prep** and custom scripts to integrate data from **Salesforce**, **Snowflake**, and legacy SQL Server databases.
+- **🤖 AI-Powered Excel Processor (Internal):** Designed and built a Rails application that standardizes non-uniform Excel files using OpenAI embeddings and pgvector similarity search for automated column mapping and commodity classification (In Scope / Out of Scope).
+
+- **📄 Contract Governance System (Internal):** Designed and built an enterprise contract lifecycle management system in Rails 7 from scratch, solo. Multi-role approval workflow with guarded state transitions, region-aware liability calculations across three geographies, and a full audit trail implemented at the PostgreSQL trigger level (Logidze + fx) rather than at the application layer. Generates PDF contracts, exports to Excel (44-column reports), imports validated CSV, and handles nested forms with bidirectional JS autofill against a reference table. Replaced a manual spreadsheet+email process with centralized, auditable, real-time contract availability.
+  **Stack:** Rails 7.1 · Hotwire · PostgreSQL · Logidze · Devise · Petergate · Wicked PDF · Axlsx · Tailwind · Stimulus.
+
+- **📊 ETL & Data Pipelines:** Design and maintain complex ETL flows using Tableau Prep and custom scripts to integrate data from Salesforce, Snowflake, and legacy SQL Server databases.
+
 - **⚙️ Backend Automation:** Develop scheduled tasks (cron jobs, Rake tasks) to ensure data consistency, trigger reports, and maintain backend health.
-- **🖥️ Infrastructure Management:** Administer and troubleshoot both **Linux** and **Windows Server** environments, ensuring high availability for BI services.
-- ** Salesforce Integration:** Build and maintain integrations between Salesforce CRM and internal data warehouses for real-time reporting.
+
+- **🔗 Salesforce Integration:** Build and maintain integrations between Salesforce CRM and internal data warehouses for real-time reporting.
 
 ---
 
 ## 📬 Get in Touch
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/mgznv/) 
+- 💼 [LinkedIn](https://www.linkedin.com/in/mgznv/)
 - 🐙 [GitHub](https://github.com/mgznv)
 - 🌐 [Website](http://www.manuelguzman.xyz)
-- ✉️ leunam.toshi@gmail.com
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mgznv&show_icons=true&theme=tokyonight&hide_border=true" alt="Manuel's GitHub Stats" />
-</p>
+- ✉️ [leunam.toshi@gmail.com](mailto:leunam.toshi@gmail.com)
